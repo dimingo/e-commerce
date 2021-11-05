@@ -30,34 +30,80 @@
                 <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
 
             </div>
+
             <div class="row">
                 <div class="col-2">
-                    <h1  >TAKE TIME FOR  <br> YOURSELF</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id magni expedita neque, adipisci quod porro laboriosam ipsa vero molestias rem, repellat vitae similique repellendus voluptas, nesciunt dolorum!</p><br>
+                    <h1>TAKE TIME FOR <br> YOURSELF</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id magni expedita neque, adipisci
+                        quod porro laboriosam ipsa vero molestias rem, repellat vitae similique repellendus
+                        voluptas, nesciunt dolorum!</p><br>
                     <a href="" class="btn">Explore Now &#8594;</a>
                 </div>
-                <div class="col-2">
-                    <img src="image/banner/vippng.com-cosmetic-png-2202065.png" alt="" >
+                <div class="col-2 ">
+                   
+                            <img src="image/banner/vippng.com-cosmetic-png-2202065.png" alt="" class="active">
+                            <!-- <img src="image/banner/laura-chouette-uedyzm50WTQ-unsplash.jpg" alt="">
+
+                            <img src="image/nav/girl-g077459cfc_1920.jpg" alt=""> -->
+
+
+
                 </div>
             </div>
         </div>
     </div>
     <!-- ----------featured Categories--------- -->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="image/products/son-gucci-505-Janet-Rust-Mat-Lipstick-2.png" alt="">
+    <!-- this should get th brief description of the -->
+    <div class="small-container">
+        <div><h2 class="title">Featured Categories</h2></div>
+        <div class="row">
+            <div class="slider">
+                
+                <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- slider iamges start -->
+                <div class="slide first">
+                    <img src="image/banner/johanne-kristensen-1A5hSvPZjMc-unsplash.jpg" alt="">
                 </div>
-                <div class="col-3">
-                    <img src="image/products/son-kem-ysl-425-2.png" alt="">
+                <div class="slide">
+                    <img src="image/banner/laura-chouette-uedyzm50WTQ-unsplash.jpg" alt="">
                 </div>
-                <div class="col-3">
-                    <img src="image/banner/—Pngtree—makeup cosmetics and crushed powder_5054535.png" alt="">
+                <div class="slide">
+                    <img src="image/banner/vippng.com-cosmetic-png-2202065.png" alt="">
                 </div>
-            </div>
+                <div class="slide">
+                    <img src="image/nav/jazmin-quaynor-FoeIOgztCXo-unsplash.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/banner/—Pngtree—cosmetic set decoration eyeshadow pan_6683659.png" alt="">
+                </div>
+                <!-- slider images end -->
+                <!-- automatic navigation start -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- automatic navigation end -->
+                <!-- manual navigation start -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+                <!-- manual navigation end -->
+        </div>
         </div>
     </div>
+        </div>
+    </div>
+  
     <!-- Featured Products -->
     <div class="small-container">
         <h2 class="title">Featured Products</h2>
@@ -316,70 +362,81 @@
     </div>
     <!-- footer -->
 
-<div class="footer">
-    <div class="small-container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Download our App</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.
-                </p>
-                <div class="app-logo">
-                    <img src="image/play-store.png" alt="">
-                    <img src="image/app-store.png" alt="">
+    <div class="footer">
+        <div class="small-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <div class="app-logo">
+                        <img src="image/play-store.png" alt="">
+                        <img src="image/app-store.png" alt="">
+                    </div>
+
                 </div>
+                <div class="footer-col-2">
+                    <img src="image/" alt="Unique Beauty Logo">
+                    <h3>Download our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
 
-            </div>
-            <div class="footer-col-2">
-                <img src="image/" alt="Unique Beauty Logo">
-                <h3>Download our App</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.
-                </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Quick Link</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
 
-            </div>
-            <div class="footer-col-3">
-                <h3>Quick Link</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
+                        <li>Coupons</li>
+                    </ul>
 
-                    <li>Coupons</li>
-                </ul>
-                
 
-            </div>
-            <div class="footer-col-4">
-                <h3>Social Link</h3>
-                <ul>
-                    <li>Instagram</li>
-                    <li></li>
-                    <li>facebook</li>
-                    <li>Twitter</li>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Social Link</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li></li>
+                        <li>facebook</li>
+                        <li>Twitter</li>
 
-                    <li>Whatsapp</li>
-                </ul>
-                
+                        <li>Whatsapp</li>
+                    </ul>
 
-            </div>
-            <hr>
-            <p class="copyright">Copyright 2020 - Mitchel Ketcha</p>
+
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Mitchel Ketcha</p>
             </div>
         </div>
     </div>
-</div>
+    </div>
 
     <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
-    <script>
+    <script type="text/javascript">
         var MenuItems = document.getElementById("menuItems");
         MenuItems.style.maxHeight = "0px";
-        function menutoggle(){
-            if( MenuItems.style.maxHeight == "0px"){
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
                 MenuItems.style.maxHeight = "200px";
             }
-            else{
+            else {
                 MenuItems.style.maxHeight = "0px";
             }
+        }
+    </script>
+
+    <script type="text/javascript">
+        const imgBx = document.querySelector('.imgBx');
+        const slides = imgBx.getElementsByTagName('img');
+        var i = 0;
+        function nextSlide() {
+            slides[i].classList.remove('active')
+            i = (i + 1) % slides.length;
+            slides[i].classList.add('active');
         }
     </script>
 </body>
